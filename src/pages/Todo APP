@@ -1,0 +1,49 @@
+Todo APP
+// API 
+-  Users Authintication
+    - Register User
+    - Login User 
+    - Change Avatar
+    - Manage Profile 
+- Tasks
+    - Create Tasks
+    - Update Task 
+    - Delete Task
+
+
+
+
+
+- Authintication
+    - Register 
+    - Login
+- User
+    - Change Avatar
+    - Manage Profile
+- Task
+    - Tasks Management
+
+
+
+
+- Domain 
+    - SubDomain
+        - components
+        - constants
+        - utils
+        - Route
+        - Container
+    - components
+        - List.jsx
+    - constants.js
+        - API url
+        - Route path 
+        - STATUS
+    - utils.js 
+    - Route.jsx
+    - Container.jsx
+        import {API_URL} from './constants'
+
+        const resp = await fetch(API_URL);
+
+        return (<List users={resp} />) 
